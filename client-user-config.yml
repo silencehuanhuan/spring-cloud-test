@@ -13,11 +13,6 @@ eureka:
 spring:
   application:
     name: client-user #此实例注册到eureka服务端的name
-  cloud:
-    config:
-      discovery:
-        enabled: true
-        service-id: test
 
 feign:
   hystrix:
